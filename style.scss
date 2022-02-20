@@ -158,3 +158,34 @@ margin: 80px;
 .exception{
   background: #F5F5F5;
 }
+.middle{
+  text-align: center;
+}
+.gallery{
+  font-family: Montserrat;
+font-size: 48px;
+line-height: 72px;
+letter-spacing: -0.015em;
+
+}
+h4{
+  font-family: Montserrat;
+font-size: 36px;
+line-height: 50px;
+letter-spacing: -0.015em;
+box-sizing: border-box;
+
+}
+.sketch{
+  margin: 80px 360px 120px 360px;
+}
+.sketch > *{
+  margin-left: 80px ;
+  margin-bottom: 64px ;
+
+}
+@media screen and  (max-width: 1800px){
+  .sketch{
+    margin: 60px 120px;
+  }
+}
