@@ -133,16 +133,16 @@ h2{
 }
 h5{
   font-size: 24px;
-line-height: 36px;
+  line-height: 36px;
 }
 p{
   font-size: 18px;
-line-height: 30px;
+  line-height: 30px;
 }
 .image_position{
   width: 750px;
-height: 440px;
-margin: 80px;
+  height: 440px;
+  margin: 80px;
 }
 .recital{
   margin:  auto;
@@ -163,29 +163,60 @@ margin: 80px;
 }
 .gallery{
   font-family: Montserrat;
-font-size: 48px;
-line-height: 72px;
-letter-spacing: -0.015em;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: -0.015em;
 
 }
 h4{
   font-family: Montserrat;
-font-size: 36px;
-line-height: 50px;
-letter-spacing: -0.015em;
-box-sizing: border-box;
-
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: -0.015em;
+  box-sizing: border-box;
 }
 .sketch{
-  margin: 80px 360px 120px 360px;
+  margin: 80px 600px 120px 600px;
+  box-sizing: border-box;
 }
 .sketch > *{
   margin-left: 80px ;
   margin-bottom: 64px ;
 
 }
-@media screen and  (max-width: 1800px){
+
+@media screen and  (max-width: 2060px){
   .sketch{
-    margin: 60px 120px;
+    margin: 60px 360px;
   }
 }
+@media screen and  (max-width: 1700px){
+  .sketch{
+    margin: 60px 90px;
+  }
+}
+.choice{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+.choice .btn {
+  margin-left: 45px;
+}
+.preface{
+  width: 943px;
+  min-width: 300px;
+  font-family: Montserrat;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: -0.015em;
+  box-sizing: border-box;
+  padding: 10px;
+
+}
+
+.invitation{
+  margin: 0 140px;
+}
+

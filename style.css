@@ -222,7 +222,9 @@ h4 {
 }
 
 .sketch {
-  margin: 80px 360px 120px 360px;
+  margin: 80px 600px 120px 600px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .sketch > * {
@@ -230,9 +232,46 @@ h4 {
   margin-bottom: 64px;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 2060px) {
   .sketch {
-    margin: 60px 120px;
+    margin: 60px 360px;
   }
+}
+
+@media screen and (max-width: 1700px) {
+  .sketch {
+    margin: 60px 90px;
+  }
+}
+
+.choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.choice .btn {
+  margin-left: 45px;
+}
+
+.preface {
+  width: 943px;
+  min-width: 300px;
+  font-family: Montserrat;
+  font-size: 36px;
+  line-height: 50px;
+  letter-spacing: -0.015em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+}
+
+.invitation {
+  margin: 0 140px;
 }
 /*# sourceMappingURL=style.css.map */
