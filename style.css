@@ -189,4 +189,15 @@ p {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.special {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.exception {
+  background: #F5F5F5;
+}
 /*# sourceMappingURL=style.css.map */
