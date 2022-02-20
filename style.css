@@ -68,8 +68,11 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: 12px;
   cursor: pointer;
+}
+
+.top_menu .btn {
+  margin-left: 12px;
 }
 
 .btn_call_to_action {
@@ -129,5 +132,46 @@ h1 {
 .btn_accent {
   background: #18a0fb;
   color: #fff;
+}
+
+section {
+  padding: 30px;
+  background: #fff;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+h2 {
+  padding: 10px;
+  font-family: Montserrat;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.card {
+  width: 45%;
+  min-width: 300px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h5 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 30px;
 }
 /*# sourceMappingURL=style.css.map */
