@@ -20,16 +20,22 @@ a{
   max-width: 1520px;
   padding: 0 30px;
   height: 60px;
-}
-
-.top_menu > div {
-  display: flex;
-  align-items: center;
-}
-
-.top_menu nav {
-  display: flex;
-  margin-left: 31px;
+  > div {
+    display: flex;
+    align-items: center;
+  }
+  nav {
+    display: flex;
+    margin-left: 31px;
+    a {
+      margin-left: 40px;
+    }
+    
+  }
+  .btn{
+    margin-left: 12px;
+  }
+  
 }
 
 .top_menu nav a,
@@ -43,8 +49,8 @@ a{
   text-decoration: none;
 }
 
-.top_menu nav a {
-  margin-left: 40px;
+@function pxToEm($px_size, $defaul_size: 16) {
+  @return $px_size / $defaul_size + 0em;
 }
 
 .btn {
@@ -57,24 +63,22 @@ a{
   align-items: center;
   justify-content: center;
   cursor: pointer;
-}
-.top_menu .btn{
-  margin-left: 12px;
+
+  &_call_to_action {
+    width: 192px;
+    height: 52px;
+  }
+  &_light {
+    background: #ffffff;
+  }
+  &_accent {
+    background: #18a0fb;
+    color: #fff;
+  }
+  
 }
 
-.btn_call_to_action {
-  width: 192px;
-  height: 52px;
-}
 
-.btn_light {
-  background: #ffffff;
-}
-
-.btn_accent {
-  background: #18a0fb;
-  color: #fff;
-}
 
 header {
   max-width: 1680px;
@@ -92,6 +96,9 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  &__title {
+    margin-top: 390px;
+  }
 }
 
 h1 {
@@ -103,14 +110,8 @@ h1 {
   color: #000000;
 }
 
-.bg_header__title {
-  margin-top: 390px;
-}
 
-.btn_accent {
-  background: #18a0fb;
-  color: #fff;
-}
+
 section{
   padding: 30px;
   background: #fff;
@@ -194,11 +195,12 @@ h4{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  .btn {
+    margin-left: 45px;
+  }
  
 }
-.choice .btn {
-  margin-left: 45px;
-}
+
 .preface{
   width: 943px;
   min-width: 300px;
